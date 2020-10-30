@@ -15,6 +15,17 @@ body {
   src: url(Admirationpains.ttf);
 }
 
+@font-face {
+  font-family: 'bytes';
+  src: url(bytes.TTF)
+}
+
 h1 {
   font-family: 'Admirationpains';
+}
+
+#results {
+  font-family: 'bytes';
+  font-size: 150%;
+  word-wrap: break-word;
 }
