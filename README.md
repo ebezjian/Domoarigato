@@ -13,7 +13,7 @@
 - Using a prefered terminal type command 'git clone paste-url-here
 - Alternetivly click the Set up in Desktop button
 - Open the index file to view site
-- [Click to open active site in Github]) Or simply paste the following url into your prefered browser 
+- [Click to open active site in Github]) (https://ebezjian.github.io/Domoarigato/) Or simply paste the following url into your prefered browser  https://ebezjian.github.io/Domoarigato/
 
 ## Specifications
 
