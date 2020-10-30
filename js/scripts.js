@@ -11,8 +11,7 @@ $(document).ready(function() {
 
 //This function is to count and replace the selected numbers that need to be changes//
 function count(num) {
-  
-  const userNum = [];
+  let userNum = [];
   const newNum = num;
   const numArray = ["1","2","3"]
   const wordArray = ["Beep!", "Boop!", "Won't you be my neighbor?"];
@@ -23,8 +22,8 @@ function count(num) {
       userNum.push(wordArray[1]);
     }else if(i.toString().split('').includes(numArray[0])) {
       userNum.push(wordArray[0]);
-    }else userNum.push();}
+    }else userNum.push(i);}
     
-return (userNum);
+return userNum + ",";
 }
 });
