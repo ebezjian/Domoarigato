@@ -17,7 +17,6 @@ function count(num) {
   const numArray = ["1","2","3"]
   const wordArray = ["Beep!", "Boop!", "Won't you be my neighbor?"];
   for (var i = 0; i <= newNum; i++) {
-    console.log(i, newNum)
     if (i.toString().split('').includes(numArray[2])) {
       userNum.push(wordArray[2]);
     }else if(i.toString().split('').includes(numArray[1])) {
