@@ -1,7 +1,7 @@
 //Front End Logic//
 $(document).ready(function() {
   $("#num").keyup(function(event){
-    event.preventDefault();
+    event.preventDefault();    
     $("#results").html(count($("#num").val()));
   })
   
@@ -11,19 +11,21 @@ $(document).ready(function() {
 
 //This function is to count and replace the selected numbers that need to be changes//
 function count(num) {
+  
   const userNum = [];
   const newNum = num;
   const numArray = ["1","2","3"]
   const wordArray = ["Beep!", "Boop!", "Won't you be my neighbor?"];
   for (var i = 0; i <= newNum; i++) {
+    console.log(i, newNum)
     if (i.toString().split('').includes(numArray[2])) {
       userNum.push(wordArray[2]);
     }else if(i.toString().split('').includes(numArray[1])) {
       userNum.push(wordArray[1]);
     }else if(i.toString().split('').includes(numArray[0])) {
       userNum.push(wordArray[0]);
-    }else userNum.push(i);}
+    }else userNum.push();}
     
-return (userNum + ",");
+return (userNum + ", ");
 }
 });
