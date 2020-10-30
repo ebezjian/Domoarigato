@@ -25,6 +25,6 @@ function count(num) {
       userNum.push(wordArray[0]);
     }else userNum.push();}
     
-return (userNum + ", ");
+return (userNum);
 }
 });
