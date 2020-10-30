@@ -20,8 +20,8 @@
 | Behavior                                                        | Input     | Output    |
 | --------------------------------------------------------------- | --------- | --------- |
 | Takes user input and returns it | test 123 | test 123 |
-| Check if number has "1", "2", or "3" | 1, 2, 3, 4 | yes, yes, yes, no |
-| Check if "Beep!", "Boop!", "won't you be my neighbor?" replaces 1,2,3,4| 2 4 5 31| Boop, 4, 5, "won't you be my neighbor?"|
+| Check if number range has "1", "2", or "3" | 1, 2, 3, 4 | yes, yes, yes, no |
+| Check if "Beep!", "Boop!", "won't you be my neighbor?" replaces 1,2,3 in range of the number inputted by user | 5 | o, "Beep!, "Boop!" "Won't you be my neighbor?" 4, 5|
 
 
 ## Bugs
