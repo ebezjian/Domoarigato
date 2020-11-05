@@ -24,7 +24,8 @@ function count(num) {
       userNum.push(wordArray[1]);
     }else if(i.toString().split('').includes(numArray[0])) {
       userNum.push(wordArray[0]);
-    }else userNum.push(i);}
+    }else userNum.push(i);
+  }
 
 return userNum + ",";
 
